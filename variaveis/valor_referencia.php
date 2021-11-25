@@ -13,12 +13,12 @@
     echo "<br>$variavel";
     echo "<br>$variavelValor";
 
-    //Atribuição por refer^rncia
+    //Atribuição por referência
 
     $variavelReferencia = &$variavel;
     $variavelReferencia = 'mesma referencia';
 
     echo "<br>$variavel";
-    echo "<br>$variavelReferencia";
+    echo "<br>$variavelReferencia"; 
 
     
