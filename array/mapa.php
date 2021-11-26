@@ -28,6 +28,7 @@
         "g",
         8 => "h"
     );
+    //Array ([0] => a [cinco] => b  )
 
     //adicionando elementos no array
     $lista[] = 'i';

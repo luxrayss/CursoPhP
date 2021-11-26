@@ -200,6 +200,36 @@
                             Mapa
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=meses">
+                            Desafio Meses
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_sorteio">
+                            Desafio Sorteio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=multi">
+                            Array Multidimensional
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=constante">
+                            Array Constante
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=get">
+                            Get
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=post">
+                            Post
+                            </a>
+                        </li>
                     </ul> 
                 </div>
             </nav>
