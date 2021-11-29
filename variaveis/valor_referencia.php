@@ -1,24 +1,18 @@
 <div class="titulo">Valor vs Referência</div>
 
 <?php
+$variavel = 'valor inicial';
+echo $variavel;
 
-    //Atribuição por valor
-    $variavel = 'Valor Inicial';
-    echo $variavel;
+// Atribuição por Valor
+$variavelValor = $variavel;
+echo "<br>$variavelValor";
+$variavelValor = 'novo valor';
+echo "<br>$variavel";
+echo " $variavelValor";
 
-    $variavelValor = $variavel;
-    echo "<br>$variavelValor";
-    
-    $variavelValor = 'Novo Valor';
-    echo "<br>$variavel";
-    echo "<br>$variavelValor";
+// Atribuição por Referência
+$variavelReferencia = &$variavel;
+$variavelReferencia = 'mesma referencia';
 
-    //Atribuição por referência
-
-    $variavelReferencia = &$variavel;
-    $variavelReferencia = 'mesma referencia';
-
-    echo "<br>$variavel";
-    echo "<br>$variavelReferencia"; 
-
-    
+echo "<br>$variavel $variavelReferencia";

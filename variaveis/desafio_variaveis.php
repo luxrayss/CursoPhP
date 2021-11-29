@@ -3,13 +3,14 @@
 <?php
 
 $a = 'Nossa';
-$Nossa = 'consegui';
+$Nossa = 'Eu';
+$Eu = 'consegui';
 $consegui = 'responder';
-$responder = 'responder';
+$responder = 'esse';
 $esse = 'desafio';
 
 echo "Nossa! Eu consegui responder esse desafio.";
 
 // $a
 echo "<br>";
-echo "$a! {$$a} {$$$a} {$$$$a} {$$$$$a}. ";
+echo "$a! {$$a} {$$$a} {$$$$a} {$$$$$a} {$$$$$$a}.";

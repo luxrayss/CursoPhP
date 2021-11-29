@@ -1,16 +1,14 @@
 <div class="titulo">Desafio Sorteio</div>
 
 <?php
-
-    $nomes = ["Nome1", "Nome2", "Nome3", "Nome4"];      
-
-    $sorteio = array_rand($nomes, 1);
-    echo "<div center><h1><center>$nomes[$sorteio]</h1></div>";
+$nomes = ["Elza", "Rapunzel", "Branca de neve", "Cinderela"];
+$index = array_rand($nomes);
+echo "<div center><h1>{$nomes[$index]}</h1></div>"
 
 ?>
 
 <style>
-    [center]{
+    [center] {
         display: flex;
         justify-content: center;
     }

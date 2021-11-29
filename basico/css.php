@@ -28,7 +28,7 @@ echo '</small>';
         justify-content: center;
     }
 
-    [azul] {
+    <?= "[azul]" ?> {
         color: #4286f4;
     }
 
