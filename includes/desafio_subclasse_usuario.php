@@ -1,27 +1,4 @@
-<div class="titulo">Heranca</div>
-
 <?php
-    //Superclasse
-    class Pessoa{
-        public $nome;
-        public $idade;
-
-    function __construct($novoNome, $idade){
-        $this->nome = $novoNome;
-        $this->idade = $idade;
-        
-         }
-
-         function __destruct(){
-             echo 'Pessoa diz: Tchau!';
-
-         }
-
-         public function apresentar(){
-             echo "{$this->nome}, {$this->idade} anos <br>";
-         }       
-
-    }
 
     //Subclasse extendendo à super-classe
     class Usuario extends Pessoa{
@@ -44,13 +21,9 @@
         }
         //herdando a função
         public function apresentar(){  
-            echo "@{$this->login}:!!! ";   
+            echo "Usuário: {$this->login}:!!! ";   
             parent::apresentar();
 
            
         }
     }
-    
-    $usuario = new Usuario('Gustavo Mendonça', 21, 'gust_mend');
-    $usuario->apresentar();   
-    unset($usuario);
