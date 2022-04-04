@@ -19,6 +19,11 @@
                 </a>
             </li>
             <li>
+                <a href="exercicio.php?dir=banco&file=inserir_2">                    
+                    Inserir Registro 02
+                </a>
+            </li>
+            <li>
                 <a href="exercicio.php?dir=banco&file=consultar">
                     Consultar
                 </a>
