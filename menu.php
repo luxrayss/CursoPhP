@@ -24,6 +24,11 @@
                 </a>
             </li>
             <li>
+                <a href="exercicio.php?dir=banco&file=alterar">                    
+                    Alterar Registro
+                </a>
+            </li>
+            <li>
                 <a href="exercicio.php?dir=banco&file=consultar">
                     Consultar
                 </a>
@@ -41,6 +46,26 @@
             <li>
                 <a href="exercicio.php?dir=banco&file=excluir_02">
                     Excluir Registro 02
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=banco&file=inserir_PDO">
+                    Inserir PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=banco&file=consulta_PDO">
+                    Consulta PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=banco&file=excluir_PDO">
+                    Excluir PDO
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=banco&file=alterar_PDO">
+                    Alterar PDO
                 </a>
             </li>
         </ul>

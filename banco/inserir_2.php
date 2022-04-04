@@ -57,7 +57,7 @@
     
     //se não houver erros, ocorrerá a inserção
     if(count($erros) == 0){
-        require_once "conexao.php"/
+        require_once "conexao.php";
 
         $sql = "INSERT INTO cadastro (
             nome, nascimento, email, site, filhos, salario)
